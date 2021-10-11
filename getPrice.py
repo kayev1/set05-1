@@ -24,3 +24,5 @@ assert get_price(18) == 10
 
 
 # Q23: What are the edge case values for your fixed get_weather_icon function in Q20? You do not have to write test cases for them, just identify them. 
+
+# The edge case values for the get_weather_icon function in Q20 are 10, 20, 50, and 85.
