@@ -2,13 +2,9 @@ def sum_one_to_n(n):
   assert isinstance(n,int), 'n must be an integer'
   assert n>0, 'n must be positive' 
 
-  s1n=0
-  add=1
-  for num in range(n): 
-    s1n = s1n +add 
-    add = add + 1 
+  sum=(n*(n+1))/2
 
-  return s1n
+  return sum
 
 assert sum_one_to_n(1)==1, 'n=1 is incorrect'
 assert sum_one_to_n(2)==3, 'n=2 is incorrect'
