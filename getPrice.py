@@ -1,7 +1,7 @@
 def get_price(age):
   if age <= 11:
     return 5
-  elif (age>12) and (age<18):
+  elif (age>=12) and (age<18):
     return 7
   else:
     return 10
@@ -20,5 +20,7 @@ assert get_price(17) == 7
 assert get_price(18) == 10
 
 # Q22: Fix the error that was uncovered by your tests. Then rerun your tests in Q21 to confirm that they pass. 
+
+
 
 # Q23: What are the edge case values for your fixed get_weather_icon function in Q20? You do not have to write test cases for them, just identify them. 
