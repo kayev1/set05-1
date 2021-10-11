@@ -4,10 +4,10 @@ def get_weather_icon(pct_rain):
     return 'fullsun.ico' 
   elif int(pct_rain) <= 20: 
     return 'suncloud.ico' 
-  elif int(pct_rain) <= 50: 
-    return 'onedrop.ico' 
   elif int(pct_rain) <= 85: 
     return 'twodrops.ico' 
+  elif int(pct_rain) <= 50: 
+    return 'onedrop.ico' 
   else: 
     return 'pouring.ico' 
 
@@ -43,5 +43,3 @@ assert get_weather_icon(45)=='onedrop.ico', 'should be onedrop'
 # Q19: One of your tests in Q18 should fail. How can you tell from the output which test has failed? 
 
 # The error message states the value for pct_rain for which the assertion is incorrect.
-
-# Q20: Correct the bug so that all of the tests in Q18 pass. Note, that if you run the file each time you edit the function below you will be able to re-run the tests in Q18. 
