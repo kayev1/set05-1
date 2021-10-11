@@ -18,3 +18,5 @@ def percent_error(accepted_value, observed_value):
 
 # Q26: Add appropriate guardians to the getPrice function for the input.  
 
+  # assert isinstance(age, int), 'age must be an integer'
+  # assert age >= 0, 'age cannot be negative' 
