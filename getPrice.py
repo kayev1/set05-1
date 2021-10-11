@@ -1,4 +1,6 @@
 def get_price(age):
+  assert isinstance(age, int), 'age must be an integer'
+  assert age >= 0, 'age cannot be negative' 
   if age <= 11:
     return 5
   elif (age>=12) and (age<18):
